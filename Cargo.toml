@@ -1,0 +1,11 @@
+[package]
+name = "montyhall"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.17", features = ["cargo", "unicode", "env"] }
+color-eyre = "0.6.3"
+indicatif = { version = "0.17.8", features = ["rayon"] }
+rand = "0.8.5"
+rayon = "1.10.0"
